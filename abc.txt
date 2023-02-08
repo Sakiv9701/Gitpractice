@@ -1,0 +1,32 @@
+NTERVIEW QUESTIONS AND ANSWERS:
+1.  Diff b/w continuous delivery and continuous deployment?
+Continuous Delivery refers to the process of automatically building, testing, and packaging software, with the goal of making it possible to release new features to production at any time. The process typically involves automated testing and integration, as well as collaboration between developers, testers, and operations teams. The software is ready for deployment but may still require manual approval from a release manager before being pushed to production.
+Continuous Deployment, on the other hand, takes Continuous Delivery one step further and automatically deploys new code to production as soon as it has passed all tests and is deemed ready. In Continuous Deployment, there is no manual intervention required, and new code is automatically released to users as soon as it is ready.
+In summary, Continuous Delivery prepares the software for deployment and requires manual approval, while Continuous Deployment automatically deploys new code to production as soon as it is ready.
+
+What is devops?
+DevOps is a software development philosophy that emphasizes collaboration, communication, and integration between software development and operations teams in order to deliver applications and services faster, more reliably, and with higher quality. It aims to bridge the gap between development and operations by automating infrastructure, continuous testing and integration, and continuous delivery and deployment processes.
+
+The core principles of DevOps are?
+1.Collaboration and communication: DevOps emphasizes collaboration and communication between development, operations, and other IT teams to ensure faster and more efficient delivery of software.
+
+2.Automation: Automation of repetitive tasks and processes is a key aspect of DevOps, enabling teams to focus on higher-value activities and improving efficiency.
+
+3.Continuous integration and delivery: DevOps practices promote continuous integration and delivery of software, allowing for faster and more frequent releases.
+
+what is contianerization?
+Containerization is a method of packaging software applications and their dependencies into isolated containers, allowing them to run consistently across different computing environments. Containers provide a lightweight and portable environment for running applications, allowing them to be easily moved from development to test to production environments.
+Containers are created from images, which define the configuration and dependencies of an application. These images are stored in a registry, such as Docker Hub or Google Container Registry, and can be pulled down and run on any system that supports the host operating
+
+Difference between docker and virtual machine?
+Docker and virtual machines (VMs) are both technologies used for isolating applications and their dependencies, but they differ in several key ways:
+1.Resource usage: Docker containers use far fewer resources than VMs, as they share the host operating system and do not require their own dedicated resources such as a separate operating system and virtualized hardware.
+
+2.Portability: Docker containers are designed to be portable and can run on any host system that supports the Docker runtime, whereas VMs are tied to the specific virtualization platform on which they were created.
+
+3.Management: Managing multiple VMs can be more complex and resource-intensive than managing Docker containers, as each VM requires its own operating system, and updates and configuration changes must be performed individually.
+
+4.Isolation: While both VMs and Docker containers provide some level of isolation, VMs offer stronger isolation as each VM runs its own operating system and hardware, whereas Docker containers share the host operating system and have access to host resources.
+5.Deployment: Deploying Docker containers is typically faster and more flexible than deploying VMs, as containers can be quickly pulled from a registry and run on any host, while VMs require more time to set up and configure.
+In conclusion, Docker is a lightweight and efficient technology for isolating applications, while VMs offer more isolation and security, but at the cost of greater resource usage and complexity. The choice between the two depends on the specific requirements of the project and the trade-offs that are acceptable.
+i
